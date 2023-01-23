@@ -4,7 +4,7 @@ module mult_driver_always_always (
 		input b,
 		input c,
 		output logic c
-	)
+	);
 	
 	always @(a or b or c)
 	begin
