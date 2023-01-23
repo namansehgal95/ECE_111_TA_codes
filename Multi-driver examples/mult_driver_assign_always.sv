@@ -4,7 +4,7 @@ module mult_driver_assign_always (
 		input b,
 		input c,
 		output logic c
-	)
+	);
 	
 	assign c = a;
 	
