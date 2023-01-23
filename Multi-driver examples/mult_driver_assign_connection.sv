@@ -3,7 +3,7 @@ module mult_driver_assign_connection (
 		input a,
 		input b,
 		output logic c
-	)
+	);
 	
 	assign c = a;
 	
