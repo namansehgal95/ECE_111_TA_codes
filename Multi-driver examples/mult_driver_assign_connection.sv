@@ -11,6 +11,6 @@ module mult_driver_assign_connection (
 		.input_port_a(a) ,
 		.input_port_b(b) ,
 		.output_port_c(c)
-	)
+	);
 	
 endmodule
