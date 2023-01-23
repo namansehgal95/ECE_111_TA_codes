@@ -1,4 +1,4 @@
-// Multi driver error as c driven by two different assign statements
+// Multi driver error as c driven by two different assign statements 
 module mult_driver_assign_assign (
 		input a,
 		input b,
