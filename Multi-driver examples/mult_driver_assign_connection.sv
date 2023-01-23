@@ -1,4 +1,4 @@
-// Multi driver error as c driven by 'assign' and output port of a module
+// Multi driver error as c driven by 'assign' and output port of a module instance
 module mult_driver_assign_connection (
 		input a,
 		input b,
