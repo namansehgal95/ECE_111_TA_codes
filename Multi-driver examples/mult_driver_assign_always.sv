@@ -1,5 +1,5 @@
 // Multi driver error as c driven by 'assign' and 'always' block
-module mult_driver_assign_always (
+module mult_driver_assign_always ( 
 		input a,
 		input b,
 		output logic c
