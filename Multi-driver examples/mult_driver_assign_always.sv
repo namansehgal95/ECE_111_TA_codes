@@ -2,7 +2,6 @@
 module mult_driver_assign_always (
 		input a,
 		input b,
-		input c,
 		output logic c
 	);
 	
