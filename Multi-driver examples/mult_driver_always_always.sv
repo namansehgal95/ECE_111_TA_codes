@@ -1,4 +1,4 @@
-// Multi driver error as c driven by 'always' and 'always' block
+// Multi driver error as c driven by two different 'always' blocks
 module mult_driver_always_always (
 		input a,
 		input b,
