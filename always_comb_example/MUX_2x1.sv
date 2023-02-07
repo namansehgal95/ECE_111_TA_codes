@@ -4,7 +4,8 @@ module mux_2x1(
   output logic out
 );
   
-  //Instead of filling out the event/sensitivity list (represented in commented code on line 8), you can use an always_comb block (shown on line 9)
+  //Instead of filling out the event/sensitivity list in always@(event) block (represented in commented code on line 8), you can use an always_comb block (shown on line 9)
+  // always_comb don't require the sensitivity list to be explicitly mentioned. The compiler is able to generate it automatically through the code.  
 //  always @(sel or in)
   always_comb
   begin
